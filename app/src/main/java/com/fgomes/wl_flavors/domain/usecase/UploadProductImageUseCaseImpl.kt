@@ -2,8 +2,9 @@ package com.fgomes.wl_flavors.domain.usecase
 
 import android.net.Uri
 import com.fgomes.wl_flavors.data.ProductRepository
+import javax.inject.Inject
 
-class UploadProductImageUseCaseImpl(
+class UploadProductImageUseCaseImpl @Inject constructor(
     private val productRepository: ProductRepository
 ): UploadProductImageUseCase {
 

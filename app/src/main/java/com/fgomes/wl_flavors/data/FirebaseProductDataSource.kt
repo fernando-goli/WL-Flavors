@@ -9,9 +9,10 @@ import com.fgomes.wl_flavors.util.STORAGE_IMAGE
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
 import java.util.*
+import javax.inject.Inject
 import kotlin.coroutines.suspendCoroutine
 
-class FirebaseProductDataSource(
+class FirebaseProductDataSource @Inject constructor(
     firebaseFirestore: FirebaseFirestore,
     firebaseStorage: FirebaseStorage
 ): ProductDataSource {
