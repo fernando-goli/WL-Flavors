@@ -3,6 +3,7 @@
     package="com.fgomes.wl_flavors">
 
     <application
+        android:name=".MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="${appName}${appNameSuffix}"
