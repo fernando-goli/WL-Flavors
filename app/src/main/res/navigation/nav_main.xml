@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_main"
-    app:startDestination="@id/addProductFragment">
+    app:startDestination="@id/productsFragment">
 
 
     <fragment
@@ -12,7 +12,7 @@
         android:label="@string/products_screen_title"
         tools:layout="@layout/fragment_products" >
         <action
-            android:id="@+id/action_productsFragment_to_addProductFragment3"
+            android:id="@+id/action_productsFragment_to_addProductFragment"
             app:destination="@id/addProductFragment" />
     </fragment>
     <dialog
