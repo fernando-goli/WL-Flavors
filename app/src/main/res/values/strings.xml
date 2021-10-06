@@ -2,7 +2,6 @@
     <string name="app_name">WL-Flavors</string>
 
     <!-- ProductsFragment -->
-    <string name="products_screen_title">Products</string>
     <string name="products_fab_add_product">Add product</string>
 
     <!-- AddProductFragment -->
