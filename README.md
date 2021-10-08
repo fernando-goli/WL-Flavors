@@ -1,12 +1,9 @@
 # WL-Flavors
-Projeto white label para praticar criação de Product Flavors.
 
-##
-Projeto white label flavor separando o app para cliente e administrador e para Car e bike, 
-
-
+Projeto white label para praticar conceitos de criação de Product Flavors, utilizando melhores praticas com MVVM e Clean Architecture, separando o app pela flavors de cliente e administrador e flavors Carro e bike.
 
 ## </br>Tecnologias utilizadas
+
 1. MVVM e Clean Architecture
 2. Material Design
 3. Firebase (storage e firestore)
